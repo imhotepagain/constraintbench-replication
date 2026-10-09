@@ -36,6 +36,7 @@ uv add <package>                      # add a dependency (never pip install)
 - `tests/`: pytest tests.
 - `scripts/`: runnable entry points.
 - `docs/`: notes and `deviations.md`.
+- `papers/`: local PDFs of the papers we read. Gitignored; fetch with `scripts/download_papers.sh`.
 
 Create these only when a milestone needs them:
 - `src/cbench/domains/<domain>/`: generator, Gurobi model, Pydantic answer schema and checker for each domain.
