@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets and licenses
+.env
+*.lic
+
+# Local Claude Code settings
+.claude/settings.local.json
